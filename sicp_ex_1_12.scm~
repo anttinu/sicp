@@ -1,0 +1,23 @@
+
+(define (pascal depth)
+  (cond ((= first_element #t) 1)
+	((= last_element #t) 1)
+	(else (+ above-left above-right))
+
+(define (above-left depth)
+  (cond ((= depth 1) 0)
+	((= depth
+
+(define (num_elements depth)
+  depth)
+
+(num_elements 4)
+
+(define (element depth)
+  (cond ((< depth 3) 1)
+	(else (+ (element (- depth 1)) (element (- depth 1))))))
+
+(element 5)
+
+	      
+	    
